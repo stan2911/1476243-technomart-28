@@ -7,21 +7,34 @@
   <body>
 	<header>
 		<section>
-			<a href='index.html'>
-				<img src='https://via.placeholder.com/150x100' alt="Логотип магазина Техномарт">
+			<a href=''>
+				<img src='img/logo-technomart1.png' width=220 height=68 alt="Логотип магазина Техномарт">
 			</a>
-			<p>Поиск</p>
-			<p>Закладки</p>
-			<a>
-				<img src='https://via.placeholder.com/150x100' alt="Оформить заказ" href='blank.html'>
-			</a>
+			<form action="https://echo.htmlacademy.ru" method='post'>
+				<label for='search-field' class='visually-hidden'>Поиск</label>
+				<button type='submit'>
+					<input type='text' name='search' placeholder='Поиск'>
+				</button>
+			</form>
+			<a href='#'>Закладки</a>
+			<a href='#'>Корзина</a>
+			<a href='#'>Оформить заказ</a>
 		</section>
 		<section>
-			<p>Интернет-магазин<br>строительных материалов и инструментов для ремонта</p>
-			<p>+7 (812) 555-05-55</p>
-			<p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-			<a href='blank.html'>Вход</a>
-			<a href='blank.html'>Регистрация</a>
+			<p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
+			<div>
+				<a href='tel:+7 (812) 555-05-55'>				
+						+7 (812) 555-05-55				
+				</a>
+			</div>
+			<div>
+				<address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
+			</div>
+			<div>
+				<a href='#'>Равшан Джамшутович</a>
+			</div>
+			<a href='#'>Мои заказы</a>
+			<a href='#'>Личный кабинет</a>			
 		</section>	
 		<nav>
 			<ul>
@@ -39,33 +52,54 @@
 	<main>
 		<!--Здесь, наверное, должен быть код, которым я должен обозначить ссылки над заголовком "Перфораторы", пока ничего лучше чем просто ссылки не придумал-->
 		<div>
-			<ul>
+			<ol>
 				<li><a href='index.html'>Главная</a></li>
 				<li><a>Каталог</a></li>
 				<li><a href='#'>Инструменты</a></li>
 				<li><a href=''>Перфораторы</a></li>
-			</ul>
+			</ol>
 		</div>
 		
 		<h1>Перфораторы</h1>
-		<form>
-		<section>
-			<h2>Производители</h2>
+		<form action='https://echo.htmlacademy.ru' method='get'>
+		<fieldset>
+			<legend>Производители</legend>
 			<ul>
-				<li>Bosch</li>
-				<li>Интерскол</li>
-				<li>Makita</li>
-				<li>Dewalt</li>
-				<li>Hitachi</li>
+				<li>
+					<input type='checkbox' name='bosch' id='filter-bosch' checked>
+					<label for='filter-bosch'>Bosch</label>
+				</li>
+				<li>
+					<input type='checkbox' name='interskol' id='filter-interskol'>
+					<label for='filter-interskol'>Интерскол</label>
+				</li>
+				<li>
+					<input type='checkbox' name='makita' id='filter-makita' checked>
+					<label for='filter-makita'>Makita</label>
+				</li>
+				<li>
+					<input type='checkbox' name='dewalt' id='filter-dewalt'>
+					<label for='filter-dewalt'>Dewalt</label>
+				</li>
+				<li>
+					<input type='checkbox' name='hitachi' id='filter-hitachi'>
+					<label for='filter-hitachi'>Hitachi</label>
+				</li>
 			</ul>
-		</section>
-		<section>
-			<h2>Питание</h2>
+		</fieldset>
+		<fieldset>
+			<legend>Питание</legend>
 			<ul>
-				<li>Аккумуляторные</li>
-				<li>Сетевые</li>
+				<li>
+					<input type='radio' name='product-group' value='rechargeable' id='filter-rechargeable' checked>
+					<label for='filter-rechargeable'>Аккумуляторные</label>
+				</li>
+				<li>
+					<input type='radio' name='product-group' value='power-cord' id='filter-cord'>
+					<label for='filter-cord'>Сетевые</label>
+				</li>
 			</ul>
-		</section>
+		</fieldset>
 		<button type='submit'>Показать</button>
 		</form>
 		<section>
@@ -168,7 +202,7 @@
 	<footer>
 		<section>
 			<a>
-				<img src='https://via.placeholder.com/150x100' alt="Логотип магазина Техномарт">
+				<img src='https://via.placeholder.com/150x100' alt="На главную">
 			</a>
 			<nav>
 				<ul>
@@ -188,7 +222,7 @@
 			</ul>
 		</section>
 		<section>
-			<p>©2010-2019 Компания "Техномарт"<br>Все права защищены</p>
+			<p>©2010-2019 Компания "Техномарт"Все права защищены</p>
 			<ul>
 				<li>
 					<a href="#">Вконтакте</a>
@@ -200,8 +234,8 @@
 					<a href="#">Инстаграм</a>
 				</li>
 			</ul>
-			<p>Обратная связь:<br><a href='blank.html'>mail@htmlacademy.ru</a></p>
-			<p>Разработано -<br><a href='https://htmlacademy.ru'>htmlacademy.ru</a></p>
+			<p>Обратная связь:<a href='blank.html'>mail@htmlacademy.ru</a></p>
+			<p>Разработано -<a href='https://htmlacademy.ru'> htmlacademy.ru</a></p>
 		</section>
    </body>
 </html>	
