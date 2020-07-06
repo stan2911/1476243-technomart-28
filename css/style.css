@@ -1,0 +1,395 @@
+body {
+    font-family: "Cuprum", sans-serif;
+    font-size: 18px; 
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+    max-width: 1200px;
+    
+}
+
+header {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #F1F5F7;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+li {
+    list-style-type:none;
+}
+
+h3 {
+    font-family: Cuprum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.visually-hidden {
+    display: none;
+}
+
+.main-logo {
+    width: 220px;
+    height: 45px;
+    background-color: #EE3643;
+    box-shadow: 0px 5px 0px 0px #b72530;
+    margin-left: 130px;
+}
+
+.main-logo img {
+    margin-top: 12px;
+    margin-right: 57px;
+    margin-bottom: 12px;
+    margin-left: 55px;
+}
+
+.header-menu {
+    background-color: #293449;
+    display: flex; 
+    
+    width: 100%;        
+}
+
+.header-menu, .header-menu a, .navigation a {
+    color: white;
+}
+
+input[name='search'] {
+    width: 270px;
+    height: 42px;
+    background-color: #293449;
+    font-family: Cuprum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    border: none;
+}
+
+input[name='search']::-webkit-input-placeholder {
+    color: white;
+}
+
+input[name='search']::-moz-placeholder {
+    color: white;
+}
+
+.bookmarks, .cart, .checkout {
+    width: 150px;
+    height: 42px;
+}
+.bookmarks:active, .cart:active {
+    background-color: #161D29;
+    color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.checkout  {
+    background-color: #63A63E;
+}
+
+.checkout:hover {
+    background-color: #5FBB2D;
+}
+
+.checkout:active a {
+    color: rgba(255, 255, 255, 0.5); 
+}
+
+.checkout:active {
+    background-color: #63A63E;
+}
+.description {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.phone a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 30px;
+}
+
+.description, .phone a {
+    color: #EE3643;
+}
+
+.address {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.account a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.account-menu {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #32425C;
+}
+
+.account:hover a, .account-menu:hover {
+    color: #EE3643;
+}
+
+.account:active a, .account-menu:active { 
+    color: #C5C5C5;
+}
+
+.navigation {
+    background-color: #32425C;
+}
+
+.navigation-item:hover {
+    background-color: #293449;
+}
+
+.navigation-item:active {
+    background-color: #1D2739;
+}
+
+.navigation-item:active a {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.main-cards {
+    font-family: 'Cuprum';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+}
+.materials-card {
+    background-color: #FFBF47;
+}
+
+.instruments-card {
+    background-color: #3BBCE3;
+}
+
+.technics-card {
+    background-color: #DC91D8;
+}
+
+.sale-card {
+    background-color: #8ED78F;
+}
+
+.delivery-card {
+    background-color: #FFC047;
+}
+
+.cards-link a{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.cards-link {
+    background-color: rgba(255, 255, 255, 0.5);
+    ;
+}
+
+.cards-link:hover {
+    background-color: rgba(197, 197, 197, 0.5); ;
+}
+
+.cards-link:active {
+    background-color: rgba(169, 169, 169, 0.5);
+}
+
+.popular-goods, .catalog-head h1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #32425C;
+}
+
+.popular-caption, .catalog-head {
+    background-color: #F9F5F0;
+}
+.popular-link {
+    background-color: #EE3643;
+}
+
+.popular-link a, .info-button a, .find-me a {
+    font-family: Cuprum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.goods-card a {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.old-price {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 18px;
+    text-decoration: line-through;
+    text-transform: uppercase;
+    color: #A9A9A9;
+}
+
+.new-price {
+    background-image: url(../img/red-button.svg);
+    background-repeat: no-repeat;
+    width: 141px;
+    height: 38px;
+    overflow: hidden;
+    padding-top: 1px;
+    border-top: 1px solid transparent;  
+}
+.new-price p {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 44px;
+    margin-bottom: 10px;
+    margin-left: 32px;
+
+}
+
+.info-text {
+    width: 478px;
+}
+.main-text {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.partners-list {
+    color: #000000;
+}
+
+.partners-list li {
+    list-style-image: url(../img/marker.svg);
+}
+
+.info-button, .find-me {
+    background-color: #EE3643;
+}
+
+.contacts .main-text {
+    width: 180px;
+}
+
+.contacts {
+    width: 300px;
+}
+
+.footer-nav {
+    background-color: #32425C;
+}
+
+.footer-logo {
+    width: 220px;
+    height: 63px;
+    background-color: #EE3643;
+}
+
+.footer-contacts {
+    background-color: #293449;
+}
+
+.footer-nav nav a, .footer-nav p {
+    color: #F1F5F7;
+}
+
+.footer-spec a {
+    color: #FFDA96;
+}
+
+.footer-contacts {
+    font-family: Cuprum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.footer-contacts p {
+    color: white;
+}
+
+.footer-contacts a {
+    color: #FFDA96; 
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+fieldset label {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #000000;
+}
