@@ -10,7 +10,7 @@
   <body>
 	<header>
 		<div class='header-menu '>			
-			<a href='index.html' class='main-logo'>
+			<a href='index.html' class='main-logo logo'>
 				<img src='img/logo-technomart.svg' width=108px height=18px alt="Логотип магазина Техномарт">
 			</a>		
 			<form action="https://echo.htmlacademy.ru" method='post'>
@@ -107,8 +107,8 @@
 				<p class='sort-btn sort-price'>По цене</p>
 				<p class='sort-btn sort-type'>По типу</p>
 				<p class='sort-btn sort-functional'>По функционалу</p>
-				<img src="img/icon-up-dir.svg" class="up-btn sort-direction-btn">
-				<img src="img/icon-down-dir.svg" class="down-btn sort-direction-btn">
+				<svg class="up-btn sort-direction-btn" xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10"><path d="M5.5 0L0 10h11z"/></svg>
+				<svg class="down-btn sort-direction-btn" xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10"><path d="M5.5 10L0 0h11"/></svg>
 			</div>
 		</div>
 		<section class="catalog-main">
@@ -285,6 +285,12 @@
 		
 			</div>
 		</section>
+		<div class="catalog-paginator">
+			<span class="paginator-link paginator-link-current" href="#">1</span>
+			<a class="paginator-link" href="#">2</a>
+			<a class="paginator-link" href="#">3</a>
+			<a class="paginator-link catalog-btn" href="#">Следующая</a>
+		</div>
 		<div class='catalog-extra'>
 			<div class="extra-text">
 				<h3>Пара слов о перфораторах</h3>
@@ -299,8 +305,8 @@
 	<footer class='footer'>
 		<section class='footer-big'>
 			<div class='footer-big-1'>
-				<a href='' class='footer-logo'>
-					<img src='img/logo-technomart.svg' width=108px height=18px alt="Логотип магазина Техномарт">
+				<a href='' class='footer-logo logo'>
+					<img src='img/logo-technomart.svg' alt="Логотип магазина Техномарт">
 				</a>
 				<div class='footer-adress'>
 					<p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>				
@@ -347,8 +353,8 @@
 						</a>
 					</li>
 				</ul>
-				<p>Обратная связь:<br><a href='mailto:mail@htmlacademy.ru'>mail@htmlacademy.ru</a></p>
-				<p>Разработано -<br><a href='https://htmlacademy.ru'>htmlacademy.ru</a></p>
+				<p>Обратная связь:<br><a href='mailto:mail@htmlacademy.ru' class="footer-feedback">mail@htmlacademy.ru</a></p>
+				<p>Разработано -<br><a href='https://htmlacademy.ru' class="footer-feedback">htmlacademy.ru</a></p>
 			</div>
 		</section>
 	</footer>
