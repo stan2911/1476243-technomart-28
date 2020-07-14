@@ -74,7 +74,11 @@ h3 {
     align-items: center;  
 }
 
-.main-logo:active {
+.main-logo:active, .footer-logo:active {
+    background-color: #BA2732;
+}
+
+.popular-link:active {
     background-color: #BA2732;
 }
 
@@ -1091,6 +1095,10 @@ a.info-button, a.find-me {
     text-align: center;
 }
 
+.footer-logo img {
+    width: 138px;
+}
+
 .footer-big nav a, .footer-big p {
     color: #F1F5F7;
 }
@@ -1111,6 +1119,15 @@ a.info-button, a.find-me {
 
 .footer-nav li {
     margin-left: 58px;
+}
+
+.footer-nav a:hover, .footer-spec a:hover {
+    text-decoration-line: underline;
+}
+
+.footer-nav a:active, .footer-spec a:active {
+    text-decoration-line: none;
+    opacity: 0.3;
 }
 
 .footer-spec {
@@ -1172,6 +1189,23 @@ a.info-button, a.find-me {
 
 .footer-contacts a {
     color: #FFDA96; 
+}
+
+.footer-feedback:hover {
+    text-decoration-line: underline;
+}
+
+.footer-feedback:active {
+    text-decoration-line: none;
+    color: #EE3643;
+}
+
+.social-icons-frames:hover {
+    background-color: #EE3643;
+}
+
+.social-icons-frames:active {
+    background-color: #EE3643;
 }
 
 .catalog-content {
@@ -1510,6 +1544,46 @@ fieldset {
 
 .catalog-cards-space .goods-card {
     margin-bottom: 20px;
+}
+
+.catalog-paginator {
+    margin-top: 48px;
+    margin-bottom: 59px;
+    margin-right: 80px;
+}
+
+.paginator-link {
+    display: inline-block;
+    vertical-align: middle;
+    min-width: 38px;
+    margin-right: 8px;
+    padding: 10px 0 10px 0;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    font-size: 13px;
+    line-height: 18px;
+    border-radius: 3px;
+}
+
+.paginator-link:last-child {
+    margin-right: 0;
+}
+
+.paginator-link:hover {
+    border-color: #bdc6ca;
+}
+
+.paginator-link:active {
+    border-color: #ee3643;
+}
+
+.paginator-link-current,
+.paginator-link-current:hover,
+.paginator-link-current:active {
+    background-color: #ee3643;
+    border-color: #ee3643;
+    color: #ffffff;
+    cursor: default;
 }
 
 .catalog-extra {
