@@ -256,9 +256,6 @@ input[name='search']:focus {
     margin-right: 17px;
 }
 
-.account:active {
-    color: #C5C5C5;
-}
 
 .account-menu-box {
     display: flex;
@@ -296,6 +293,28 @@ input[name='search']:focus {
 .enter-btn {
     width: 121px;
 }
+
+.enter-btn img {
+    opacity: 0.3;
+    margin-right: 6px;
+}
+
+.account:hover img {
+    opacity: 1;
+}
+
+.account:active img {
+    opacity: 0.3;
+}
+
+.account:hover {
+    color: #EE3643;
+}
+
+.account:active {
+    color: #C5C5C5;
+}
+
 
 .registration-btn {
     width: 150px;
